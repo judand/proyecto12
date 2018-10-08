@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalleActivity"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_view_deta"
+            />
+        <TextView
+            android:id="@+id/text_title_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Nombre"
+            android:textSize="25dp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="5dp"
+
+            />
+        <TextView
+            android:id="@+id/text_lugar_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="lugar"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/text_capacidad_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="capacidad"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/text_fecha_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="fecha"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/text_hora_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="hora"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/text_costoboleta_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="costoboleta"
+            android:textStyle="bold"
+            android:textColor="#66bb6a"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/text_descripcion_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="descripcion"
+            android:layout_margin="10dp"
+            android:padding="2dp"
+            android:textColor="@color/cardview_dark_background"
+            android:typeface="serif"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
